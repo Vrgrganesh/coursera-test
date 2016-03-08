@@ -1,0 +1,68 @@
+*
+{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+h1
+{
+	text-align:center;
+}
+p
+{
+	font-family:"Comic Sans MS";
+	font-size:20px;
+	text-align:center;
+}
+#ip
+{
+	text-align:left;
+}
+#chik,#bee,#sus
+{
+ background-color:#808080;
+ height:300px;
+ width:300px;
+ float:left;
+ margin-top:20px;
+ margin-left:20px;
+}
+#chi
+{
+	background-color:#ff9999;
+	width:30%;
+	 position: relative;
+	 float:right;
+		}
+#beef
+{
+	background-color:#e60000;
+	width:30%;
+        position: relative;
+        float: right;
+		}
+#sushi
+{	background-color:#ffad33;
+	width:30%;
+	position:relative;
+	float:right;
+
+}
+ @media (min-width: 768px) and (max-width: 991px)
+{	
+	#chik{width:45%}
+	#bee{width:45%}
+	#sus
+	{
+		width: 100%;
+	}
+}
+@media(max-width: 767px)
+{
+	#chik{width:100%}
+	#bee{width:100%}
+	#sus
+	{
+		width: 100%;
+	}
+}
